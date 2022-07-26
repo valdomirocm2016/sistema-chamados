@@ -1,10 +1,13 @@
 import firebase from './services/firebaseConnection';
 
+
+import AllRoutes from './routes';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Olá</h1>
-    </div>
+    
+       <AllRoutes/>
+    
   );
 }
 
